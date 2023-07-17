@@ -1,0 +1,14 @@
+{
+    "CreateAPIKey": 1,
+    "AppSyncApiName": "sauravbookstore",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authsauravbookstoref5ad2eba",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "S3DeploymentBucket": "amplify-sauravbookstore-dev-142905-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/a6bc7e056790ef252e5b47f05f53174cbb5f8d64"
+}

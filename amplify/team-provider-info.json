@@ -1,0 +1,36 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-sauravbookstore-dev-142905-authRole",
+      "UnauthRoleArn": "arn:aws:iam::998871305517:role/amplify-sauravbookstore-dev-142905-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::998871305517:role/amplify-sauravbookstore-dev-142905-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-sauravbookstore-dev-142905-deployment",
+      "UnauthRoleName": "amplify-sauravbookstore-dev-142905-unauthRole",
+      "StackName": "amplify-sauravbookstore-dev-142905",
+      "StackId": "arn:aws:cloudformation:us-east-2:998871305517:stack/amplify-sauravbookstore-dev-142905/f98771b0-ce67-11ed-a562-0653a0a38010",
+      "AmplifyAppId": "d1az7tlgm78rst"
+    },
+    "categories": {
+      "auth": {
+        "sauravbookstoref5ad2eba": {}
+      },
+      "function": {
+        "processPayment": {
+          "deploymentBucketName": "amplify-sauravbookstore-dev-142905-deployment",
+          "s3Key": "amplify-builds/processPayment-49445771666f47665874-build.zip"
+        },
+        "createOrder": {
+          "deploymentBucketName": "amplify-sauravbookstore-dev-142905-deployment",
+          "s3Key": "amplify-builds/createOrder-4e594c2b78686a414658-build.zip"
+        }
+      },
+      "storage": {
+        "BookImages": {}
+      },
+      "api": {
+        "sauravbookstore": {}
+      }
+    }
+  }
+}

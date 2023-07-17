@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "sauravbookstore",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authsauravbookstoref5ad2eba",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
